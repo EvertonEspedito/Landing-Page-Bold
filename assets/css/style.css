@@ -1,0 +1,543 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+.center{
+    display: flex;
+    max-width: 1200px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main{
+    background-image: url('../img/backhero.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.logomenu{
+    width: 50%;
+}
+
+.itn-menu{
+    width: 50%;
+}
+
+.menu-mobi{
+    display: none;
+}
+
+.itn-menu-mob{
+    width: 50%;
+    text-align: right;
+    display: none;
+}
+
+.itn-menu-mob i{
+   font-size: 40px;
+   cursor: pointer;
+}
+
+.itn-menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.itn-menu a:hover{
+    border-bottom:2px solid  #FFDD33;
+}
+
+.itn-menu .ctn-btn{
+    background-color: #0F3FD3;
+    padding: 10px 10px ;
+    border-radius: 10px;
+}
+
+.itn-menu .ctn-btn:hover{
+    transition: 0.5s;
+    background-color:  #0b2a88;
+}
+
+div.mockup{
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+div.mockup h1{
+    font-size: 50px;
+}
+
+div.mockup h1 strong{
+    font-weight: bolder;
+}
+
+div.mockup img{
+    max-width: 100%;
+}
+
+section.marcas{
+    padding: 100px 0;
+}
+
+section.marcas img{
+    width: calc(100%/5);
+}
+
+section.porque-nos{
+   padding: 40px 0;
+   background-color: #FBFCFE;
+}
+
+section.porque-nos > .center{
+    max-width: 1280px;
+}
+
+section.porque-nos > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+}
+
+section.porque-nos > .center > p{
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    width: 100%;
+}
+
+section.porque-nos .difer{
+    display: flex;
+    margin-top: 50px;
+}
+
+section.porque-nos .difer .box-dife{
+    box-shadow: 0px 20px 40px #2426721C;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+section.porque-nos .difer .box-dife h3{
+    color: #000000;
+    text-align: left;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+section.porque-nos .difer .box-dife p{
+    color: #7E92AC;
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+section.cta{
+    background-image: url('../img/BANNER\ IMG.png');
+    padding: 20px 10px;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+section.cta h2,
+section.cta p{
+    font-weight: normal;
+    margin: 15px 0;
+}
+
+section.cta h2{
+    font-size: 30px;
+}
+
+section.cta a{
+    padding: 8px 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    background: #FFDD33;
+    text-decoration: none;
+    color: #0F3FD3;
+    display: inline-block;
+    font-size: 17px;
+    
+}
+
+section.beneficios{
+    padding: 50px 0;
+}
+
+section.beneficios .center .lista-bene,
+section.beneficios .center .img-bene{
+    width: 50%;
+}
+
+
+section.beneficios .center .lista-bene h3{
+    font-size: 40px;
+}
+
+section.beneficios .center .lista-bene p{
+    font-size: 17px;
+    font-weight: normal;
+    padding: 4% 0;
+    color: #7E92AC;
+}
+
+section.beneficios .center .lista-bene a{
+    padding: 8px 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    background: #FFDD33;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 17px;
+    background: #255AFF;
+    
+}
+
+section.beneficios .center .img-bene img{
+    max-width: 100%;
+}
+
+section.depoimento{
+    background-color:#FBFCFE;
+    padding: 40px 0;
+}
+
+section.depoimento h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+section.depoimento .container-slider{
+    overflow: hidden;
+}
+
+.container-slider{
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.container-slider-single{
+    float: left;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    min-height: 350px;
+}
+
+.container-slider-single h4{
+    color: #7E92AC;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container-slider-single p{
+    color: #7E92AC;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+/****SLICK SLIDER****/
+
+.slick-slide{
+    margin-left: 27px;
+}
+
+.slick-list{
+    margin-left: -27px;
+}
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #D2D8EB;
+	border-width: 0;
+	background: #D2D8EB;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #255AFF;
+	color: #255AFF;
+}
+
+.slick-slide:focus { outline: none; }
+
+/**Fim Slide**/
+
+section.contato{
+    padding: 40px 0;
+    text-align: center;
+}
+
+section.contato h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.contato form{
+    margin: 0 auto;
+}
+
+.contato input[type=text],input[type=email]{
+    width: 100%;
+    height: 50px;
+    padding: 0 0 0 4px;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 0 0 20px 0;
+    outline: none;
+}
+
+.contato textarea{
+    width: 100%;
+    height: 120px;
+    padding: 4px;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    opacity: 1;
+    outline: none;
+}
+
+.contato input[type=submit]{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #255AFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+section.rodape{
+    background-color: #255AFF;
+    padding: 40px 2%;
+    width: 100%
+}
+
+section.rodape .menurodape{
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.rodape .menurodape h2{
+    color: white;
+    font-size: 16px;
+    margin-left: 9rem;
+}
+
+section.rodape .menurodape h2 a{
+    color: white;
+}
+
+/*Resonsivo*/
+@media screen and (max-width: 768px) {
+    .itn-menu-mob {
+        display: block;
+    }
+
+    .menu-mobi{
+        z-index: 999;
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        padding: 20px 0;
+        background-color: #0F3FD3;
+    }
+
+    .menu-mobi ul a{
+        text-align: center;
+        display: block;
+        margin: 30px 0;
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-weight: 300;
+    }
+    .menu-mobi ul{
+        margin-top: 40px;
+    }
+
+    .menu-mobi ul a:hover{
+        color: #FFC107;
+    }
+
+    .menu-mobi i{
+        cursor: pointer;
+        font-size: 40px;
+    }
+
+    .itn-menu-mob i{
+        cursor: pointer;
+        font-size: 40px; 
+    }
+    
+    .itn-menu{
+        display: none;
+
+    }
+
+    section.porque-nos .difer{
+        flex-wrap: wrap;
+    }
+    section.porque-nos .difer .box-dife{
+        width: 100%;
+        margin-right: 0;
+    }
+    section.marcas > .center{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.marcas img{
+        width: 100%;
+        max-width: 200px;
+    }
+
+    section.beneficios .center .lista-bene, section.beneficios .center  .img-bene{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    section.beneficios .center .lista-bene p{
+        font-size: 20px;
+        font-weight: normal;
+        padding: 6% 0;
+        color: #7E92AC;
+    }
+
+    .contato input[type=text],input[type=email]{
+        width: 90%;
+        height: 50px;
+        padding: 0 0 0 4px;
+        background: #FCFDFF;
+        border: 1px solid #C3CCE8;
+        border-radius: 10px;
+        opacity: 1;
+        margin: 0 0 20px 0;
+        outline: none;
+    }
+    
+    .contato textarea{
+        width: 90%;
+        height: 120px;
+        padding: 4px;
+        background: #FCFDFF;
+        border: 1px solid #C3CCE8;
+        border-radius: 10px;
+        opacity: 1;
+        outline: none;
+    }
+    
+    .contato input[type=submit]{
+        width: 90%;
+        height: 50px;
+        border: none;
+        background: #255AFF 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        opacity: 1;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: normal;
+        cursor: pointer;
+    }
+
+    /**Rodapé**/
+    section.rodape .menurodape{
+        justify-content: center;
+        display: inline;
+        text-align: center;
+    }
+
+    section.rodape .menurodape h2{
+        color: white;
+        font-size: 16px;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    
+    section.rodape .menurodape h2 a{
+        color: white;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    /**Rodapé**/
+    section.rodape .menurodape{
+        justify-content: center;
+        display: inline;
+        text-align: center;
+    }
+    
+    section.rodape .menurodape h2{
+        color: white;
+        font-size: 16px;
+        margin-left: 0rem;
+        text-align: center;
+    }
+        
+    section.rodape .menurodape h2 a{
+            color: white;
+    }
+
+    section.rodape .menurodape .itn-menu{
+        display: none;
+    }
+
+   
+}
